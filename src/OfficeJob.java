@@ -28,7 +28,7 @@ public class OfficeJob implements Job{
         return endShift;
     }
     @Override
-    public String printJobDescription() {
+    public void printJobDescription() {
         System.out.println("Job Description" +jobDescription);
     }
 
@@ -44,6 +44,12 @@ public class OfficeJob implements Job{
         workers.add(person);
         System.out.println(person.getName()+ "Hired");
     }
+
+    @Override
+    public void firePerson(Person person) {
+
+    }
+
     @Override
     public void fireperon(Person person){
         workers.remove(person);

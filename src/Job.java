@@ -10,4 +10,6 @@ public interface Job {
     void printWorkers();
     void hirePerson(Person person);
     void firePerson(Person person);
+
+    void fireperon(Person person);
 }
